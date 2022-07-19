@@ -18,7 +18,6 @@ h2 {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 20px;
-    text-align: center !important;
 }
 
 h2 span {
@@ -26,9 +25,13 @@ h2 span {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 20px;
-    text-align: center !important;
 }
 
+h2::before {
+    content: " ";
+    border-left: 5px solid #e98b36;
+    padding-left: 15px;
+}
 
 
 .menu {
@@ -528,25 +531,6 @@ body {
     padding-top: 90px;
 }
 
-.about h2 {
-    border-left: 7px solid #15355A;
-    height: 47px;
-    padding-left: 14px;
-    color: #15355A;
-    font-size: 38px;
-    font-weight: 700;
-    padding-bottom: 50px;
-}
-
-.about h2 span {
-
-    color: #262626;
-    font-size: 38px;
-    font-weight: 700;
-    padding-bottom: 50px;
-}
-
-
 .about h3 {
     padding-top: 20px;
     padding-left: 10px;
@@ -643,34 +627,6 @@ body {
     padding-bottom: 20px;
 }
 
-
-
-.special h2 {
-
-    height: 39px;
-    color: #e98b36;
-    font-size: 38px;
-    font-weight: 700;
-    padding-bottom: 40px;
-    text-align: center !important;
-    padding-left: 14px;
-}
-
-.special h2 span {
-
-    color: #262626;
-    font-size: 38px;
-    font-weight: 700;
-    padding-bottom: 40px;
-    text-align: center !important;
-}
-
-.special h2::before {
-    content: " ";
-    border-left: 7px solid #e98b36;
-    padding-left: 15px;
-}
-
 .special .special-pt {
     padding-top: 30px;
 
@@ -713,26 +669,6 @@ body {
 
 .chooseer {
     margin-right: 10px;
-}
-
-.choose h2 {
-    border-left: 7px solid #e98b36;
-    height: 39px;
-    padding-left: 14px;
-    color: #e98b36;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 30px;
-
-}
-
-.choose h2 span {
-
-    color: #262626;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 30px;
-
 }
 
 
@@ -833,120 +769,10 @@ body {
     text-decoration: none;
 }
 
-.news {
-    padding-top: 70px;
-    padding-bottom: 90px;
-    background-color: #d9e8fc;
-}
-
-.news h2 {
-    border-left: 7px solid #e98b36;
-    height: 39px;
-    padding-left: 14px;
-    color: #e98b36;
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 75px;
-
-}
-
-.news h2 span {
-
-    color: #262626;
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 60px;
-
-}
-
-.news .news1 p {
-    padding-top: 10px;
-    color: #262626;
-    font-size: 16px;
-    font-weight: 500;
-    padding-bottom: 10px;
-    text-align: left;
-    margin-left: 20px;
-    padding-right: 50px;
-
-}
-
-.news .news1 p span {
-    padding-top: 10px;
-    color: #262626;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: left;
-}
-
-
-.news .news1 .dot {
-
-    color: #262626;
-    font-weight: 700;
-    text-align: left;
-
-}
-
-
-
-.news .news1 a {
-    color: #262626;
-    font-size: 18px;
-    font-weight: 400;
-
-    text-align: left;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.newspt {
-    padding-top: 80px;
-}
-
-.news .btn-primary {
-    margin-top: 60px;
-    background-color: #54ced4;
-    color: rgb(255 251 251);
-    border-color: #d9e8fc;
-    box-shadow: 1px 1px 1px #d9e8fc;
-    padding: 10px 10px 10px 10px;
-    width: 100%;
-    border-radius: 30px;
-    font-size: 16px;
-    text-align: center !important;
-
-}
-
-
-.news .btn-primary a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .doctor {
     padding-top: 70px;
     PADDING-BOTTOM: 30PX;
-}
-
-.doctor h2 {
-    border-left: 7px solid #e98b36;
-    height: 39px;
-    padding-left: 14px;
-    color: #e98b36;
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 20px;
-
-}
-
-.doctor h2 span {
-
-    color: #262626;
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 20px;
-
 }
 
 .doctor p {
@@ -1114,33 +940,6 @@ body {
 .video .postbox {
     box-shadow: 7px 7px 12px #15355A;
     height: 27rem;
-}
-
-.video h2 {
-
-    height: 39px;
-    color: #e98b36;
-    font-size: 38px;
-    font-weight: 700;
-    padding-bottom: 60px;
-    text-align: center !important;
-    padding-left: 14px;
-    margin-bottom: 30px;
-}
-
-.video h2 span {
-    padding-bottom: 60px;
-    color: #262626;
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center !important;
-}
-
-.video h2::before {
-    content: " ";
-    border-left: 7px solid #e98b36;
-    padding-left: 15px;
 }
 
 .p-top3 {
