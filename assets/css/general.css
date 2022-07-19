@@ -18,6 +18,7 @@ h2 {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 h2 span {
@@ -25,6 +26,7 @@ h2 span {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 20px;
+   
 }
 
 h2::before {
@@ -620,6 +622,44 @@ body {
     color: #e98b36;
 }
 
+.facts {
+    margin-top: 2rem;
+
+}
+
+.facts .facts-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.facts .facts-text h3 {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.facts .facts-text h3::after {
+    position: absolute;
+    content: "\f067";
+    top: 0px;
+    right: -25px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.facts .facts-text p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
 
 .special {
     background-color: #fafdff;
@@ -877,7 +917,10 @@ body {
     padding-left: 22px !important;
 }
 
-
+.test {
+    padding: 1px;
+    opacity: 1 !important;
+}
 .test .slider {
     width: 100%;
     margin: 0px 0px 0px 0px;
@@ -916,7 +959,6 @@ body {
 .test .ico {
     font-weight: 700;
     text-align: center !important;
-
     color: #e98b36;
     margin-top: 32px;
     font-size: 36px;
@@ -1384,7 +1426,7 @@ body {
 }
 
 .footer-area .container-fluid {
-    max-width: 1290px;
+    max-width: 1350px;
     margin: auto
 }
 

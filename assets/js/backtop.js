@@ -37,8 +37,11 @@ $(function () {
 		}
 	}
 
+
 	// Functions Initializations
 	
 	backToTop('.js-backToTop', templateOption.backToTop);
 
 })
+
+
