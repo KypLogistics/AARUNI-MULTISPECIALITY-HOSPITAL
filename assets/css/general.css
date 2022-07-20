@@ -917,43 +917,55 @@ body {
     padding-left: 22px !important;
 }
 
+
+
 .test {
     padding: 1px;
     opacity: 1 !important;
 }
-.test .slider {
-    width: 100%;
-    margin: 0px 0px 0px 0px;
-}
 
 .test .slick-slide {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 10px;
 }
 
-.test .slick-slide img {
-    width: 100%;
 
-
+.test .card {
+    padding: 0px 10px;
 }
 
-.test .slick-prev:before {
-    color: black;
+
+.test .card img {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+    border-radius: 50%;
+}
+
+.test .card p::before {
+    content: "\f10d";
+    font-size: 25px;
     font-family: "Font Awesome 5 Free";
-    content: "<";
-    font-size: 40px;
-    font-weight: 700;
-
+    font-weight: 900;
+    color: #e98b36;
+    margin-right: 10px;
 }
 
-
-.test .slick-next:before {
-    color: black;
-
-    font-family: "Font Awesome 5 Free";
-    content: ">";
-    font-size: 40px;
+.test .card .test-text{
+    display: inline-block;
+    width: fit-content;
+}
+.test .card h3 {
+    font-size: 18px;
     font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
 
+.test .card h4 {
+    color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .test .ico {
