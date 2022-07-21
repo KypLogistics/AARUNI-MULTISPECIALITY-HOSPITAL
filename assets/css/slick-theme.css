@@ -119,11 +119,11 @@
     
 
     .slick-prev{
-        left: 0%;
+        display: none !important;
     }
 
     .slick-next{
-        right: 0%;
+        display: none !important;
     }
 
 }
