@@ -1162,6 +1162,14 @@ body {
 }
 
 
+
+
+.healthtips{
+    margin: 20px;
+    box-shadow: 2px 2px 4px #d9e8fc;
+}
+
+
 .foot {
     background-color: #282828;
 
